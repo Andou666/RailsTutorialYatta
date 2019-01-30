@@ -1,0 +1,4 @@
+ja:
+  errors:
+    messages:
+      mini_magick_processing_error: "ファイルが無効です"

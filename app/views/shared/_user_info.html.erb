@@ -1,0 +1,5 @@
+<%= link_to gravatar_for(current_user, size: 50), current_user %>
+<h1><%= current_user.name %></h1>
+<span><%= link_to "プロフィールをみる", current_user %></span>
+<span><%= current_user.profile %></span>
+<b>投稿数：<%= pluralize(current_user.microposts.count, "") %></b>

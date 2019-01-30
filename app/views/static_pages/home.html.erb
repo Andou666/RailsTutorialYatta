@@ -1,0 +1,31 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8 mt-3">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+<div class="center jumbotron mt-5">
+    <h1>はじめてのRailsページにようこそ!!</h1>
+    <p>このページは次のサイト参考に作られています　<a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a></p>   
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),'http://rubyonrails.org/' %>
+<% end %>
+
+<% if false %>
+<%= link_to image_tag("kitten.png", alt: "Kitten") %>
+<% end %>

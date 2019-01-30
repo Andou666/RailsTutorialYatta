@@ -1,0 +1,9 @@
+<h1>テストメール</h1>
+
+<p>
+このメールはテストです
+</p>
+
+
+<p><%= @user.name %> 様</p>
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>

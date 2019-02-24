@@ -7,7 +7,7 @@ ruby '2.5.3'
 gem 'rails', '~> 5.2.2'
 ### 追加：
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
-gem 'bootstrap', '~> 4.2', '>= 4.2.1'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'rails-i18n'
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'

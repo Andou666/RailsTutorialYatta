@@ -15,7 +15,7 @@ gem 'faker', '~> 1.9', '>= 1.9.1'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
-gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+gem 'mini_magick', '~> 4.9'
 gem 'mini_racer'
 
 # Use sqlite3 as the database for Active Record
